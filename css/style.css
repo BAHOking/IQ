@@ -176,12 +176,6 @@ a {
   color: #8e8e8e;
 }
 
-.button:hover,
-.button-2:hover,
-.button__next:hover {
-  box-shadow: 0 0 5px #ffc700;
-}
-
 .header__text {
   padding: 22px 0 19px;
   font-family: "PT Serif";
@@ -790,10 +784,6 @@ a {
   color: #8e8e8e;
   background: #dadada;
   box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.25);
-}
-
-.last-page__button:hover {
-  box-shadow: 0 0 5px #ffc700;
 }
 
 .last-page__footer {
