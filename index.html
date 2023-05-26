@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IQ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yeseva+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__top">
+          <div class="header__btn-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="header__logo-box show-hide">
+            <div class="header__logo-img">
+              <img src="images/icons/brain-icon.png" alt="brain-icon.png" />
+            </div>
+            <h2 class="header__logo-title">тест на определение IQ</h2>
+          </div>
+        </div>
+
+        <div class="side-menu show-hide">
+          <div class="side-menu__svg-img">
+            <img src="images/icons/cross-icon.svg" alt="cross-icon.png" />
+          </div>
+          <ul class="side-menu__list">
+            <li class="side-menu__link"><a href="#">главная</a></li>
+            <li class="side-menu__link">
+              <a href="#services-items-box">информация о тесте</a>
+            </li>
+            <li class="side-menu__link side-menu__link-color start-test">
+              <a href="#">пройти тест</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="header__content">
+          <h2 class="header__subtitle">Пройдите точный и быстрый</h2>
+          <h1 class="header__title">тест на определение IQ</h1>
+          <button class="button start-test">пpойти тест</button>
+          <p class="header__text">
+            И получите рекомендации по развитию своего интеллекта <br />
+            <span>и улучшению финансового благосостояния и личной жизни</span>
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <section class="services">
+          <div class="services__main">
+            <input class="services__more-btn" type="checkbox" id="id-1" />
+            <label class="services__more-btn--label" for="id-1"
+              >Подробнее</label
+            >
+          </div>
+
+          <div class="services__items-box show-hide" id="services-items-box">
+            <div class="services__top">
+              <div class="services__top-img--top"></div>
+              <img src="images/“1.png" alt="services__top-img--top" />
+              <p class="services__top-text">
+                Профессиональный IQ-тест позволяет не только определить
+                коэффициент вашего интеллекта, <br />
+                но и выработать список рекомендаций для повышения этого
+                показателя.
+              </p>
+              <div class="services__top-img--bottom">
+                <img src="images/“2.png" alt="services__top-img--bottom" />
+              </div>
+            </div>
+
+            <div class="services__mid">
+              <p class="services__mid-text">
+                Также по результатам теста <br />
+                <span>вы получите</span> подробные <span>советы</span> по
+                определению наиболее перспективной
+                <span
+                  >для вашего типа <span class="span__2">интеллекта</span> сферы
+                  деятельности</span
+                >, <br />
+                которая принесет вам скорейший финансовый результат.
+              </p>
+              <div class="services__mid-img">
+                <img src="images/brain.png" alt="services__mid-img" />
+              </div>
+
+              <button class="button start-test">пpойти тест</button>
+            </div>
+
+            <div class="services__bottom">
+              <div class="lightning-1"></div>
+              <div class="lightning-2"></div>
+              <p class="services__bottom-text--top">
+                Прохождение теста займет у вас не более <span>12 минут</span>, а
+                его результаты вы сможете <span>использовать всю жизнь.</span>
+              </p>
+              <div class="services__bottom-text--box">
+                <p class="services__bottom-text--bottom">
+                  Профессиональная интерпретация и детально
+                  <span>проработанные рекомендации</span> позволят вам
+                  качественно <span>изменить все аспекты своей жизни</span>: от
+                  финансового до любовного.
+                </p>
+              </div>
+              <button class="button-2 start-test">пpойти тест</button>
+              <footer class="footer">
+                <span>© 2019</span>
+              </footer>
+            </div>
+          </div>
+        </section>
+
+        <div class="tast__box show-hide">
+          <div class="test__percenti">
+            <div></div>
+          </div>
+          <h3 class="test__title"></h3>
+          <div class="test__items-box"></div>
+
+          <button class="button__next" disabled>далее</button>
+        </div>
+
+        <section class="last-page show-hide">
+          <div class="lightning-3"></div>
+          <div class="lightning-4"></div>
+          <h3 class="last-page__title-h3">Ваш результат рассчитан:</h3>
+          <p class="last-page__top">
+            <span>Вы относитесь к 3%</span> респондентов, чей уровень интеллекта
+            более чем на 15 пунктов отличается от среднего в большую или меньшую
+            сторону!
+          </p>
+          <h2 class="last-page__title-h2">Скорее получите свой результат!</h2>
+          <p class="last-page__mid">
+            в целях защиты персональных данных результат теста, их подробная
+            интерпретация и рекомендации доступны в виде голосового сообщения по
+            звонку с вашего мобильного телефона
+          </p>
+          <p class="last-page__timer-top">
+            Звоните скорее, запись доступна всего
+          </p>
+          <p class="last-page__timer-bottom">
+            <span class="c22">09:</span><span class="c33">59</span>
+            минут
+          </p>
+          <button class="last-page__button">
+            Позвонить и прослушать результат
+          </button>
+
+          <footer class="last-page__footer">
+            TERMENI SI CONDITII: ACESTA ESTE UN SERVICIU DE DIVERTISMENT. PRIN
+            FOLOSIREA LUI DECLARATI CA AVETI 18 ANI IMPLINITI,
+          </footer>
+        </section>
+      </div>
+    </main>
+
+    <script src="js/sideMenu.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
